@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from "next";
+import { NextApiRequest } from "next";
 import { initSocket, NextApiResponseWithSocket } from "@/lib/socket";
 
 export default function handler(

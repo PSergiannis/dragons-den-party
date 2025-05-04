@@ -4,14 +4,15 @@ import Image from "next/image";
 
 export default function MenuTab() {
   return (
-    <div className="max-w-4xl mx-auto">
-      <div className="relative aspect-[4/3] w-full">
+    <div className="flex justify-center items-center h-full w-full py-4">
+      <div className="relative">
         <Image
-          src="/DragonsDenMenu.png"
+          src="/images/DragonsDenMenu.png"
           alt="Dragons Den Menu"
-          fill
-          className="object-contain"
+          width={800}
+          height={1100}
           priority
+          className="mx-auto"
         />
       </div>
     </div>

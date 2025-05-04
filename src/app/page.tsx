@@ -11,14 +11,23 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState("vote");
 
   const tabs = [
+    { id: "menu", label: "Menu", icon: FaUtensils },
     { id: "vote", label: "Vote", icon: FaCocktail },
     { id: "stats", label: "Stats", icon: FaChartBar },
-    { id: "menu", label: "Menu", icon: FaUtensils },
   ];
 
   return (
     <main className="container mx-auto px-4 py-8">
-      <h1 className="text-4xl font-bold text-center mb-8">Dragons Den Party</h1>
+      <h1 className="text-2xl font-bold text-center mb-1">
+        Lovely Alcohol Enjoyer,
+      </h1>
+      <h2 className="text-xl font-light text-center mb-1">
+        What a party right? Don&apos;t Forget your Votes & Happy Birthday wishes
+        🎉
+      </h2>
+      <h3 className="text-sm font-light text-center mb-8">
+        - Message from Parilaos -
+      </h3>
 
       <div className="flex justify-center mb-8">
         <div className="flex space-x-4 bg-white/10 rounded-lg p-2">
